@@ -37,6 +37,7 @@ ol {
 img {
     display: block;
     max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -300,18 +301,23 @@ body {
 /* ---------------------------CUSTOMERS------------------------------ */
 
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .customers-item {
-    width: 168px;
+    width: calc((100%-24px) / 2)
     height: 88px;
+}
+
+.customers>.container{
+    max-width: 428px;
 }
 
 .customers-link {
@@ -896,3 +902,4 @@ body {
     opacity: 0;
     pointer-events: none;
 }
+
