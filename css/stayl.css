@@ -667,6 +667,7 @@ body {
 .footer {
     background-color: var(--color-hero-background);
     width: 100%;
+    padding: 100px 0;
 
 }
 
@@ -675,7 +676,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
     gap: 72px;
 }
 
